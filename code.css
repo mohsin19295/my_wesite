@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.mainHeading {
+  font-weight: 600;
+  padding: 1% 4%;
+  /* border: 1px solid red; */
+  /* margin-left: auto; */
+}
+.innerTitle {
+  position: absolute;
+  /* border: 1px solid red; */
+  /* display: block; */
+}
+
+
+.innerTitle a {
+  /* position: relative; */
+  margin-top: 5%;
+  display: none;
+  text-align: left;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.mainHeading:hover .innerTitle a {
+    margin-top: 5%;
+    display: block;
+}
+
+.innerTitle:nth-child(1) {
+  margin-top: 1%;
+}
