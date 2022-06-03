@@ -6,7 +6,6 @@ body {
 }
 
 nav {
-  /* background-color: rgb(151, 150, 228); */
   border-bottom: 1px solid rgba(26, 24, 24, 0.377);
   border-width: 50%;
   background: linear-gradient(0deg, #5e717a, rgb(156, 192, 123));
@@ -19,11 +18,9 @@ nav {
 nav ul {
   position: absolute;
   top:0.8%;
-  /* left:10%; */
   margin: 0;
   padding: 0 2%;
   display: flex;
-  /* border: 1px solid red */
 }
 
 ul li {
